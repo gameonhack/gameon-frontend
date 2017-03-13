@@ -1,0 +1,148 @@
+a{
+	outline:0 !important;	
+}
+.navbar-default {
+	background-color:#000000;
+	border: 0;
+	border-radius: 0;
+}
+.navbar-default .navbar-nav li a{
+	color:#fff;	
+	font-weight:400;
+}
+.navbar-default .navbar-nav li a:hover{
+	color:#CBC3C3;	
+}
+.navbar-default .navbar-nav li.active a{
+	background-color:transparent;
+	color:#CBC3C3;		
+}
+.navbar-default .navbar-nav li.active a:hover{
+	background-color:transparent;
+	
+}
+
+.navbar-default .navbar-nav > li > a:focus{
+	color: #1F81BF;	
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:focus,
+.navbar-default .navbar-nav > .open > a:hover{
+    color: #1F81BF;
+    background-color: transparent;
+}
+
+.dropdown-menu{
+	background-color:#064372;
+	opacity:0.9;
+	border:0;
+}
+.dropdown-menu > li > a{
+	font-weight:300!important;	
+}
+.navbar-default .navbar-nav .open .dropdown-menu li  a{
+	color:#fff;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+  color: #1F81BF;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-toggle{
+	border-color:#AFAFAF;	
+	border:1px solid #fff;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #FFFFFF;
+}
+.navbar-default .navbar-toggle:hover {
+    background-color: #064372;
+	cursor:pointer;
+}
+.navbar-default .navbar-brand {
+	color:#fff;		
+}
+.navbar-default .navbar-brand:hover {
+ 	color:#1F81BF;
+}
+
+/*--- carousel ---*/
+.carousel {
+  margin-bottom: 0px;
+}
+.carousel-caption {
+  z-index: 1;
+}
+.carousel .item {
+  min-height: 400px;
+  background-color:#1A89D0;
+}
+.carousel img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  /*min-height: 400px;*/
+  min-width: 100%;
+}
+.carousel-inner .item .img-fill {
+    width: 100%;
+    height: 100%;
+    background-position: top center;
+    background-size: cover;
+}
+.carousel-control.left {
+	background-image:none;
+	background-color:transparent;
+}
+.carousel-control.right {
+	background-image:none;
+	background-color:transparent;
+}
+
+
+.carousel-caption {
+	color: #fff;
+	text-align: center;
+	padding-bottom: 50px;
+}
+.carousel-caption h2 {
+	font-size: 40px;
+	font-weight: 700;
+	text-transform:uppercase;
+	line-height:1.2em;
+}
+.carousel-caption p {
+	font-size:18px;
+	padding-bottom: 25px;	
+}
+.carousel-caption h4 {
+	font-size: 16px;
+	font-weight: 300;
+}
+
+@media (max-width: 768px) {
+	.carousel-inner > .item {
+	   min-width: 100%;
+	   min-height: 400px;
+	}
+	.carousel-inner > .item > img {
+		position: absolute;
+	   	top: 0;
+	   	left: 0;
+	   	min-width: 100%;
+	   	min-height: 400px;
+	}
+	.carousel-caption {
+		padding-bottom: 20px;
+	}
+	.carousel-caption h2 {
+		font-size: 30px;
+	}
+	.carousel-caption p {
+		font-size:14px;
+		padding-bottom: 20px;
+	}
+}
+/*--- carousel ---*/

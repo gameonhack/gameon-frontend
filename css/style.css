@@ -1,0 +1,240 @@
+@import url("https://fonts.googleapis.com/css?family=Didact+Gothic");
+.head {
+    background-color: #EA217D;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#login-button {
+    float: right;
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-top: 35px;
+    margin-bottom: 10px;
+}
+
+#go-talks {
+    background-color: #FFFFFF;
+    color: #444444;
+    margin: 25;
+    padding: 30px;
+}
+
+#go-hackaton {
+    background-color: #24BDE0;
+    color: #FFFFFF;
+    margin: 25;
+    padding: 30px;
+}
+
+#go-battle {
+    background-color: #FFFFFF;
+    color: #444444;
+    margin: 25;
+    padding: 30px;
+}
+
+body {
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 17px;
+    text-align: center;
+}
+
+img {
+    height: 300%;
+}
+
+h2 {
+    font-weight: bold;
+    margin: 20px;
+    padding: 40px;
+}
+
+.pink {
+    color: #EA217D;
+    font-style: italic;
+}
+
+.btn-pink {
+    background-color: #EA217D;
+    color: #FFFFFF;
+    text-transform: ;
+}
+
+.btn-pink:hover, .btn-pink:focus, .btn-pink:active {
+    background-color: #EA217D;
+    color: #FFFFFF;
+}
+
+footer {
+    padding: 20px;
+    background-color: #F7F9FA;
+    color: #95989A;
+}
+
+#imgmargin {
+    margin-bottom: 30px;
+    margin-top: 5px;
+}
+
+.no-padding {
+    padding: 0 !important;
+}
+
+.no-margins {
+    margin: 0 !important;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.monster-talk {
+    margin-top: -30px;
+}
+
+.talk-text {
+    margin-top: 80px;
+    padding-right: 115px;
+}
+
+.monster-talk {
+    margin-top: -30px;
+}
+
+.hack-text {
+    margin-top: 100px;
+    padding-left: 120px;
+}
+
+.monster-hack {
+    margin-top: 80px;
+}
+
+.img-responsive {
+    width: 100%;
+}
+
+.img-responsive-circle {
+    width: 100%;
+}
+
+.img-responsive-go {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 20%;
+
+}
+.container-goh {
+    background-image: url('../img/textcontainer2.svg');
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: center;
+    margin-bottom: 50px;
+    height: 380px;
+}
+
+.container-talk {
+    background-image: url('../img/textcontainer2.svg');
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: center;
+    margin-bottom: 50px;
+    height: 380px;
+}
+
+.container-hack {
+    background-image: url('../img/textcontainer1.svg');
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: center;
+    margin-bottom: 50px;
+    height: 350px;
+}
+
+.container-circle-talk {
+    background-image: url('../img/circlewhite.svg');
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: center;
+}
+
+.container-circle-hack {
+    background-image: url('../img/circleblue.svg');
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: center;
+}
+
+.m-b-lg {
+    margin-bottom: 40px
+}
+
+@media (max-width: 1200px) {
+    .container-hack, .container-talk {
+        background-size: auto 90%;
+        height: 450px;
+    }
+    .talk-text {
+        margin-top: 140px;
+        padding-right: 140px;
+    }
+    .hack-text {
+        margin-top: 180px;
+    }
+    .img-responsive-circle {
+        width: 30%;
+    }
+}
+
+@media (max-width: 990px) {
+    .monster-talk {
+        margin-top: 70px;
+    }
+    .monster-hack {
+        margin-top: 120px;
+    }
+    .container-talk {
+        background-size: auto 82%;
+        height: 450px;
+    }
+    .container-hack {
+        background-size: auto 80%;
+        height: 425px;
+    }
+    .talk-text {
+        margin-top: 120px;
+        padding-right: 80px;
+    }
+    .hack-text {
+        margin-top: 160px;
+        padding-left: 80px;
+    }
+    .img-responsive-circle {
+        width: 40%;
+    }
+}
+
+@media (max-width: 769px) {
+    .monster-hack, .monster-talk {
+        margin-top: 0px;
+    }
+    .container-hack, .container-talk {
+        background-image: none;
+        height: 100%;
+        width: 100%;
+    }
+    .hack-text, .talk-text {
+        margin-top: 40px;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    .img-responsive-circle {
+        width: 40%;
+    }
+}

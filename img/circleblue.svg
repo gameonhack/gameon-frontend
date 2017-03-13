@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="116.075 1829.075 489.651 489.651">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #5cd6ea;
+        stroke-linecap: round;
+        stroke-width: 6px;
+        stroke-dasharray: 30.092 30.092;
+      }
+    </style>
+  </defs>
+  <g id="Group_851" data-name="Group 851" transform="translate(116.075 1829.075)">
+    <path id="Path_1480" data-name="Path 1480" class="cls-1" d="M241.825,0c95.091,0,177.364,54.885,216.928,134.83a240.691,240.691,0,0,1,24.9,107c0,133.556-108.269,241.825-241.825,241.825S0,375.382,0,241.825,108.269,0,241.825,0Z" transform="translate(3 3)"/>
+  </g>
+</svg>
